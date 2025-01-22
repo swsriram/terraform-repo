@@ -1,6 +1,6 @@
 variable "aws_region" {
   type    = string
-  default = "us-east-1"
+  default = "sa-east-1"
 }
 
 variable "vpc_cidr" {
@@ -21,5 +21,5 @@ variable "private_subnet_cidr" {
 variable "public_key_name" {
   type        = string
   description = "Name of an existing AWS key pair for SSH access"
-  default     = "323230574799_NV-Aug-24"
+  default     = "key-pair-for-lab-exercise-8"
 }

@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "terraform-state-jan2025"
+    bucket         = "terraform-training-22jan2025"
     key            = "terraform-infra-cicd/terraform.tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "tf-lock-table"
+    region         = "sa-east-1"
+    dynamodb_table = "swsriram-terraform-lock-table"
     encrypt        = true
   }
 }
